@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.biluutech.usamatech.shortcuttools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3077862326815479~3821069249"/>
+
+        <activity android:name="com.biluutech.usamatech.shortcuttools.AdobePremiereActivity"></activity>
+        <activity android:name="com.biluutech.usamatech.shortcuttools.VLCActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.GoogleActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.AdobeAfterAffectActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.AdobeReaderActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.AnyDeskActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.AndroidStudioActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.NotePadActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.MicrosoftEdgeActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.WindowsActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.XDActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.NotepadPlusPlusActivty" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.OperaActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.AdobePhotoshopActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.AdobeIllustratorActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.PaintsActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.MacActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.MSPowerPointActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.TypingMasterActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.MSExcelActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.MSWordActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.HomeActivity" />
+        <activity android:name="com.biluutech.usamatech.shortcuttools.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

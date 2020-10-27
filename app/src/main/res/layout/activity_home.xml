@@ -1,0 +1,286 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:weightSum="3">
+
+
+
+                <ImageView
+                    android:id="@+id/android_studio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="androidStudioOnClick"
+                    android:background="@drawable/android_studio_main" />
+
+
+                <ImageView
+                    android:id="@+id/adobe_reader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="adobeReaderOnClick"
+                    android:background="@drawable/adobe_reader_main" />
+
+
+                <ImageView
+                    android:id="@+id/any_desk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="anyDeskOnClick"
+                    android:background="@drawable/anydesk_main" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+
+                <ImageView
+                    android:id="@+id/adobe_illustrator"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:onClick="adobeIllustratortOnClick"
+                    android:background="@drawable/illustratort_main" />
+
+
+
+                <ImageView
+                    android:id="@+id/adobe_photoshop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="adobePhotoshopOnClick"
+                    android:background="@drawable/photoshop_main" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/xd"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="xdOnClick"
+                    android:background="@drawable/xd_main" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <ImageView
+                android:id="@+id/ms_word"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/word_main"
+                android:onClick="msWordOnClick" />
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   android:id="@+id/ms_excel"
+                   android:layout_weight="1"
+                   android:onClick="msExcelOnClick"
+                   android:background="@drawable/excel_main" />
+
+
+                <ImageView
+                    android:id="@+id/ms_powerpoint"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="msPowerpointOnClick"
+                    android:background="@drawable/powerpoint_main" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+
+                <ImageView
+                    android:id="@+id/opera"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="operaOnClick"
+                    android:background="@drawable/opera_main" />
+
+                <ImageView
+                    android:id="@+id/google"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="googleOnClick"
+                    android:background="@drawable/google_main" />
+
+                <ImageView
+                    android:id="@+id/microsoft_edge"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="microsoftEdgeOnClick"
+                    android:background="@drawable/microsoft_edge_main" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/notepade"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="notepadeOnClick"
+                    android:background="@drawable/notepad_main" />
+
+
+
+                <ImageView
+                    android:id="@+id/notepade_plus"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="notepadePlusOnClick"
+                    android:background="@drawable/notepad_plus_main" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/typing_master"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="typingMasterOnClick"
+                    android:background="@drawable/typing_master_main" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+                <ImageView
+                    android:id="@+id/windows"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="windowsnClick"
+                    android:background="@drawable/windows_main" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/paints"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="paintsOnClick"
+                    android:background="@drawable/paint_main" />
+
+
+
+                <ImageView
+                    android:id="@+id/mac"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="macOnClick"
+                    android:background="@drawable/mac_main" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="100dp"
+            android:weightSum="3">
+
+
+
+                <ImageView
+                    android:id="@+id/vlc"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="vlcOnClick"
+                    android:background="@drawable/vlc_main" />
+
+
+                <ImageView
+                    android:id="@+id/adobe_premiere"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="adobePremiereOnClick"
+                    android:background="@drawable/adobe_premiere_main" />
+
+
+                <ImageView
+                    android:id="@+id/after_affect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="afterEffectOnClick"
+                    android:background="@drawable/after_effect_main" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
